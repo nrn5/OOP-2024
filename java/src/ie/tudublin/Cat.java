@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ie.tudublin;
 
 public class Cat {
@@ -26,3 +27,19 @@ public class Cat {
 
 
 }
+=======
+package ie.tudublin;
+
+public class Cat extends Animal {
+    public void speak()
+    {
+        System.out.println("Meaow: " + getName());
+    }
+
+    public Cat(String name)
+    {
+        setName(name);
+    }
+    
+}
+>>>>>>> e3bd70e5953d5a98b6b636c5ca0b98a243b5bbb4
