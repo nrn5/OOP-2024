@@ -17,6 +17,11 @@ public class Main
 
 	public void doCatStuff()
 	{
+		Cat ginger = new Cat("Ginger");
+		while (ginger.getNumLives() != 0) {
+			ginger.kill();
+		}
+
 		// Put your code here
 		System.out.println("cats are from space");
 	}
